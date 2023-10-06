@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100, 300, 400, 500, 600, 700, 800, 900&display=swap');
+
+/* font-family: 'Big Shoulders Text', cursive; */
+*{
+    margin: 0%;
+    padding: 0%;
+	
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+    height: 100vh;
+    color: #fff;
+}
+
+
+nav ul {
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: absolute;
+	z-index: 100;
+	left: 0;
+	width: 100%;
+	padding: 0;
+}
+
+nav ul li {
+    text-decoration: none;
+	list-style-type: none;
+	padding: 20px 15px;
+}
+
+nav ul li a {
+	font-family: 'Big Shoulders Text', cursive;
+	color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 3px rgb(0, 0, 0) ;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 300;
+	padding: 10px;
+}
+
+nav ul li a:hover{	
+	background-color: #2897076b;
+	color: #1d7a19;
+	text-decoration: none;
+	transition: 0.5s;
+	border-radius: 4px;
+}
+
+#titulo {
+    font-size: 30px; 
+    margin-right: 190px; 
+	color: #fff;
+}
+#titulo:hover{
+	background-color: #000;
+}
+
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+	padding: 5px;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+	text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Estilizando o nome da empresa */
+
+.menu{
+    margin-left: 10px;
+    margin-right:15px
+
+} 
+
+#voltart {
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	margin-left: 95%;
+	margin-top: 1%;
+	margin-bottom: 10%;
+	position: fixed;
+	text-decoration: none;
+	color: #fffdfd;
+	padding: 5px;
+	background-color: #3a5c3f;
+
+}
+
+.section-intro {
+
+	height: 90vh;
+	background-image: url(img/eletrica.jpg);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-intro h1 {
+	text-align: center;
+	color: rgb(234, 255, 211);
+	opacity: 0.8;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0) ;
+	font-size: 4em;
+	font-weight: 700;
+}
+
+.section-intro header {
+	display: flex;
+	flex: 4;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.link-to-book-wrapper {
+	flex: 1;
+}
+
+.about-section {
+	color: rgb(234, 255, 211);
+	display: flex;
+	background-color: #2b302b;
+	padding: 50px 30px;
+	
+}
+
+#marginb{
+	margin-top: 7vh;
+}
+
+.alinhar{
+	width: 75%;
+}
+
+.link-to-book {
+	color: #000000;
+    font-family: 'Big Shoulders Text', cursive;
+	display: block;
+    background-color: #d8f7d4;
+	border: 2px solid #3a5c3f;
+	padding: 5px 10px;
+    border-radius:  2px 2px 2px 2px;
+}
+
+a.link-to-book:hover {
+	background-color: #ffffff;
+	color: #95999e;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+
+.about-section h3 {
+	text-align: center;
+	width: 60%;
+	margin: auto;
+	color: #45ff0da1;
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 1.9em;
+	text-transform: uppercase;
+}
+
+.about-section p{
+	padding: 30px;
+	text-align: justify;
+	
+	margin: auto;
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 1.5em;
+	
+}
+
+.tipos-op {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+	margin-bottom: 20px;
+}
+
+.tipos-op img {
+    flex: 0 0 auto; /* Evita que a imagem seja flexível */
+    margin-right: 20px; /* Espaço à direita da imagem */
+}
+
+.content {
+    flex: 1; /* Expande para preencher o espaço restante */
+}
+
+
+.about-section ul li{
+	padding: 30px;
+	text-align: justify;
+	
+	width: 60%;
+	margin: auto;
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 1.5em;
+	
+}
+
+.about-section .tipos-op {
+	padding: 20px;
+	width: 90%;
+	display: flex;
+	margin-top: 2rem;
+	border-top: #067430 solid 2px;
+}
+
+
+.about-section img {
+	margin-left: 25vh;
+	width: 40vh;
+	height: 30vh;
+}
+.carousel-inner {
+	height: 90vh;
+}
+
+.mp{
+	padding-top: 50px;
+}
+.conteudo .card{
+	color: #fffdfd;
+	background-color: #1c69056b;
+	border-radius: 10%;
+	
+}
+
+.card img{
+	border-radius: 10%;
+}
+
+.conteudo .card .card-text{
+	text-align: left;
+}
+.center-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img-c-t {
+    margin: 10px; /* Adicione margens entre as divs card */
+}
+
+.sobre {
+	background-color: #2b302b;
+	padding: 3rem;
+	color: white;
+	
+}
+
+.sobre h2{
+	text-align: center;
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 3em;
+}
+
+
+.perfis h3{
+	text-align: center;
+	color: #45ff0d6b;
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 3em;
+}
+
+.img-c-t {
+	display: inline-block;
+	flex-direction: column;
+	padding: 3rem;
+	align-items: center;
+	
+}
+
+.img-c-t p{
+	text-align: center;
+}
+
+.sobre-nos{
+	margin-top: 4rem;
+	padding: 1rem;
+	background-color: #1c7a1956;
+	border-radius: 20px;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.sobre-nos h3{
+	font-size: 40px;
+}
+.sobre-nos p{
+	font-size: 20px;
+	line-height: 40px;
+}
+
+
+@media (min-width:577px) and (max-width: 800px) {
+
+	.section-intro {
+		height: 500px;
+	}
+
+	.about-section p,
+	.about-section h3 {
+		font-size: 20px;
+	}
+
+	.carousel-inner {
+		height: auto;
+	}
+
+	.row-flex {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.section-intro {
+		height: 300px;
+	}
+
+	.about-section {
+		padding: 30px;
+	}
+
+	.section-intro h1 {
+		font-size: 2em;
+	}
+
+	.about-section p,
+	.about-section h3 {
+		font-size: 15px;
+	}
+
+	.carousel-inner {
+		height: auto;
+	}
+
+	.row-flex {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.row-flex h3 {
+		font-size: 25px;
+		text-align: center;
+	}
+
+	.form-group p {
+		font-size: 15px;
+	}
+
+	.opening-time p span,
+	.contact-address p span {
+		font-size: 15px;
+		text-align: center;
+	}
+   
+}

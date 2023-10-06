@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,
+			initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="index.css">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity=
+"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+		crossorigin="anonymous">
+
+	<title>Ωline</title>
+</head>
+
+<body>
+
+	<!-- navbar -->
+	<section id="fundo">
+    <nav>
+        <ul>
+            <li><a id="titulo" >Ωline </a></li>
+			<li><a href="eletrica.html" class="menu">Eletrica</a></li>
+            <li class="dropdown nav-item">
+                <a href="index.html" class="menu">Amplificadores</a>
+                <div class="dropdown-content">
+                    <a href="#OQuee"class="menu"> O que é?</a>
+                    <a href="#Tipo"class="menu">Tipos</a>
+                    <a href="#apc"class="menu"> Aplicações</a>
+                    <a href="#desa"class="menu"> Desafios</a>
+                    <a href="#circ"class="menu"> Circuitos</a>
+                </div>
+            </li>
+            <li class="dropdown nav-item">   
+                <a href="conversor.html" class="menu">Conversor</a>
+                <div class="dropdown-content">
+                    <a href="#oque"class="menu"> O que é?</a>
+                    <a href="#tipo"class="menu"> Tipos </a>
+                    <a href="#aplicacoes"class="menu"> Aplicações</a>
+                    <a href="#desafio"class="menu"> Desafios</a>
+                    <a href="#tendencias"class="menu"> Tendencias</a>
+
+                </div>
+            </li>
+            <li class="nav-item">
+				<a href="minigame.html" class="menu">MiniGame</a>
+			</li>
+            <li><a href="game.html" class="menu">Game</a></li>
+            <li class="dropdown nav-item">   
+                <a href="#Sobre_Nós" class="menu">Sobre</a>
+            </li>
+        </ul>
+    </nav>
+	
+	<!-- 
+	TEXTO NO MEIO DA TELA -->
+
+	<section class="section-intro">
+		<header>
+			<h1> Amplificadores Operacionais</h1> 		
+		</header>
+		<div class="link-to-book-wrapper">
+			<a class="link-to-book"
+				href="#OQueè">Saiba mais sobre</a>
+		</div>
+	</section>
+</section>
+<a href="#titulo" id="voltart">Subir</a>
+
+
+	<!-- Parte Explicativa -->
+	<section class="about-section">
+		<article>
+			<h3 id="OQuee">
+				Amplificador operacional
+			</h3>
+
+			<p>
+				O amplificador operacional, também chamado por alguns de amp-op, nada mais é do que um circuito integrado (CI), capaz de amplificar um sinal de entrada e como próprio nome sugere, o amplificador operacional também é capaz de realizar operações matemáticas, como por exemplo soma, subtração, derivação. integração e multiplicação.   
+	A estrutura de um amplificador operacional é simples, pois ele possui dois terminais de entrada, denominados por terminal inversor, identificado pelo sinal negativo (-), o outro terminal que é o não inversor, identificado por um sinal positivo (+) e um terminal de saída, além de outros dois terminais que também são essências, de forma que um destes terminais é a alimentação positiva (+Vcc)e o outro é a alimentação negativa (-Vcc): 
+
+			</p>
+			
+			<section class="margint">
+
+				<h3 id="Tipo" class="mp">
+					Tipos de amplificadores operacionais
+				</h3>
+				<div class="tipos-op">
+					<img src="img/nao-inversir.jpg" class="img-thumbnail" alt="...">
+					<div class="content">
+						<h3>Amplificador Não-Inversor</h3>
+						<p>
+							O amplificador operacional não inversor é uma das configurações mais básicas de um amplificador operacional. Nesse circuito, o sinal de entrada é conectado ao terminal (-) do amplificador operacional, enquanto o terminal (+) é conectado a uma referência comum, geralmente o terra (GND). A saída é retirada do terminal de saída do amplificador. O amplificador operacional não inversor não inverte a fase do sinal de entrada e amplifica sua magnitude de acordo com a razão das resistências.
+						</p>
+					</div>
+				</div>
+				
+				<div class="tipos-op">
+					<img src="img/ampop-inversor.jpg" class="img-thumbnail" alt="...">
+					<div class="content">
+						<h3>Amplificador Inversor</h3>
+						<p>
+							O amplificador operacional inversor é uma das configurações mais básicas de um amplificador operacional. Nesse circuito, o sinal de entrada é conectado ao terminal (-) do amplificador operacional, enquanto o terminal (+) é conectado a uma referência comum, geralmente o terra (GND). A saída é retirada do terminal de saída do amplificador. O amplificador operacional inversor inverte a fase do sinal de entrada e amplifica sua magnitude de acordo com a razão das resistências.
+						</p>
+					</div>
+				</div>
+	
+				<div class="tipos-op">
+					<img src="img/difrenciador.jpg" class="img-thumbnail" alt="...">
+					<div class="content">
+						<h3>Amplificador diferenciador</h3>
+						<p>
+							O amplificador operacional diferenciador é projetado para calcular a taxa de variação de um sinal de entrada em relação ao tempo, ou seja, a derivada do sinal. Ele é usado em aplicações onde é necessário enfatizar as mudanças rápidas no sinal de entrada.  O amplificador operacional diferenciador é útil em aplicações como detecção de picos, medição de velocidade e controle de sistemas. No entanto, ele é sensível a ruídos de alta frequência e, portanto, pode exigir filtros para atenuar frequências indesejadas.
+						</p>
+					</div>
+				</div>
+	
+				<div class="tipos-op">
+					<img src="img/ampop-inversor.jpg" class="img-thumbnail" alt="...">
+					<div class="content">
+						<h3>Amplificador somador</h3>
+						<p>
+							Um amplificador operacional somador combina várias entradas ponderadas em uma única saída, somando-as. Ele é frequentemente usado em aplicações onde é necessário calcular uma média ponderada de várias tensões de entrada. O amplificador operacional somador permite combinar várias fontes de sinal em uma única saída, com a capacidade de ajustar os pesos relativos das entradas por meio das resistências. Isso é útil em aplicações como sistemas de som, misturadores de áudio e processamento de sinal.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			
+			<h3 class="mp">
+				Outros amplificadores operacionais
+			</h3>
+			<ul id="li-tipos-op">
+				<li>Amplificadores Operacionais de Uso Geral:<br> Esses são os tipos mais comuns de amplificadores operacionais e são usados em uma ampla variedade de aplicações. Eles geralmente têm uma ampla faixa de frequência e alta impedância de entrada.
+				</li>
+				<li>Amplificadores de Instrumentação:<br> Projetados para medir sinais de pequena amplitude em meio a muito ruído. Eles têm alta impedância de entrada e baixa impedância de saída, o que os torna ideais para aplicações de medição.
+				</li>
+				<li>Amplificadores de Áudio:<br> Projetados especificamente para amplificar sinais de áudio. Eles geralmente possuem maior largura de banda e características de resposta de frequência adequadas para aplicações de áudio.</li>
+				<li>Amplificadores de Potência:<br> Diferentemente dos amplificadores operacionais de uso geral, esses são projetados para fornecer alta potência a uma carga. Eles são frequentemente usados em sistemas de áudio de alta potência, como amplificadores de guitarras e sistemas de som de palco.</li>
+			</ul>
+
+			<section class="margint">
+
+			</section>
+			<h3 id="apc"class="mp ">
+				APLICAÇÕES
+			</h3>
+
+			<div class="tipos-op">
+				<img src="img/fone.jpg" class="img-thumbnail" alt="...">
+				<div class="content">
+					<h3>Amplificação de Sinal</h3>
+					<p>
+						Os op-amps são amplamente utilizados para amplificar sinais de baixa amplitude, tornando-os mais fortes e utilizáveis em várias aplicações, como alto-falantes, fones de ouvido, sistemas de som, etc.
+					</p>
+				</div>
+			</div>
+			<div class="tipos-op">
+				<img src="img/multimetro-digital-978md-western_204510_1.webp" class="img-thumbnail" alt="...">
+				<div class="content">
+					<h3>Instrumentação e Medição
+					</h3>
+					<p>
+						Op-amps são vitais em instrumentação e medição, como em multímetros e amplificadores de instrumentação, para amplificar pequenos sinais de sensores e transdutores para uma leitura mais precisa.
+					</p>
+				</div>
+			</div>
+			<div class="tipos-op">
+				<img src="img/relogio_comparador_5mm_0_01_1045f_s_mitutoyo_1094610_1_20181003163529.webp" class="img-thumbnail" alt="...">
+				<div class="content">
+					<h3>Comparadores</h3>
+					<p>
+						Os op-amps são usados como comparadores para determinar se um sinal é maior ou menor do que um valor de referência. Isso é útil em sistemas de controle e detecção.					
+					</p>
+				</div>
+			</div>
+			<div class="tipos-op">
+				<img src="img/p6010pic.jpg" class="img-thumbnail" alt="...">
+				<div class="content">
+					<h3>Controle de Sistemas:</h3>
+					<p>
+						Em sistemas de controle, op-amps são usados para criar circuitos de feedback, controladores PID (Proporcional, Integral, Derivativo) e outros dispositivos de controle.
+
+					</p>
+				</div>
+			</div>
+			<div class="tipos-op">
+				<img src="img/Conversor_digital_para_analogico_de_8_bits_DAC0802LCN_M.jpg" class="img-thumbnail" alt="...">
+				<div class="content">
+					<h3>Conversores Analógico-Digitais (ADC) e Digitais-Analógicos (DAC):</h3>
+					<p>
+						Op-amps são componentes chave em circuitos de conversão entre sinais analógicos e digitais, sendo fundamentais em dispositivos como conversores de áudio, controle de motores, entre outros.
+					</p>
+				</div>
+			</div>
+
+			<h3 id="desa"  class="mp">
+				DESAFIOS
+			</h3>
+
+			<ul id="li-tipos-op">
+				<li>Estabilidade e Compensação: <br>
+				Os amplificadores operacionais podem se tornar instáveis em certas configurações de circuitos ou frequências. A compensação adequada é necessária para garantir a estabilidade e evitar oscilações indesejadas.				
+			</li>
+				<li>Compatibilidade com o Resto do Circuito:<br>
+					Os amplificadores operacionais precisam ser compatíveis com os outros componentes do circuito, incluindo resistores, capacitores e fontes de sinal. A escolha adequada dos componentes e a configuração correta são cruciais para garantir o funcionamento adequado.
+				</li>
+				<li>Aquecimento e Dissipação de Calor: <br>
+					Amplificadores operacionais podem gerar calor, especialmente quando operam com grandes ganhos ou em altas frequências. O controle adequado da temperatura e a dissipação de calor são essenciais para manter a confiabilidade e o desempenho.
+				<li>Ruído:<br>
+					O ruído é uma preocupação em aplicações de baixo sinal. Amplificadores operacionais podem contribuir com ruído ao sinal amplificado. Projetistas precisam minimizar esse ruído para manter a qualidade do sinal.</li>
+				<li>Interferência Eletromagnética (EMI) e Interferência de Radiofrequência (RFI):<br>
+					Amplificadores operacionais podem ser suscetíveis a EMI e RFI, especialmente em ambientes elétricos ruidosos. O projeto do circuito deve levar em consideração medidas de proteção e blindagem para mitigar essas interferências.
+
+					</li>
+				</ul>
+				<h3 id="circ" class="mp">Nosso circuito(TinkerCad)</h3>
+
+
+			
+		</article>
+	</section>
+
+	<!-- Carrosel -->
+	<div id="carouselExampleControls"
+		class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner heig">
+			<div class="carousel-item active">
+				<img src="img/Trabalho  (2).png"
+					class="d-block w-100 " alt="food">
+			</div>
+			<div class="carousel-item heig">
+				<img src="img/circuito.frente.jpg"
+					class="d-block w-100 "  alt="food">
+			</div>
+			<div class="carousel-item heig">
+				<img src="img/circuito_2_2.jpg"
+				    class="d-block w-100 "	 alt="food">
+			</div>
+		</div>
+		<a class="carousel-control-prev"
+			href="#carouselExampleControls"
+			role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon"
+				aria-hidden="true">
+			</span>
+			<span class="sr-only">Voltar</span>
+		</a>
+		<a class="carousel-control-next"
+			href="#carouselExampleControls"
+			role="button" data-slide="next">
+			<span class="carousel-control-next-icon"
+				aria-hidden="true">
+			</span>
+			<span class="sr-only">Proximo</span>
+		</a>
+	</div>
+	 
+	<section class="about-section">
+        <div class="alinhamento">
+			<h3>Demonstração</h3>
+			<br>
+        <video controls>
+            <source src="img/estouradao.mp4" type="video/mp4">
+        </video>
+        </div>
+	</section>
+
+	  <!-- SOBRE NÓS -->
+	  <section >
+        <div id="Sobre_Nós"  class="sobre">
+            <h2>Sobre nós e Contatos</h2>
+            <br>
+ 
+			<div class="perfis">
+				<h3>Quem somos</h3>
+                <div class="conteudo center-cards">
+					<div class="img-c-t">
+						<div class="card" style="width: 350px;">
+							<img src="img/alvaro.b.enc" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Álvaro Barcelos</h5>
+								<p class="card-text">Lider de equipe</p>
+							</div>
+						  </div>
+					</div>
+					<div class="img-c-t">
+						<div class="card" style="width: 350px;">
+							<img src="img/alvaro.l.jpg" class="card-img-top " alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Álvaro Lomeu</h5>
+								<p class="card-text">Layout do site,montagem do circuito</p>
+							</div>
+						  </div>
+					</div>
+					<div class="img-c-t">
+						<div class="card" style="width: 350px;">
+							<img src="img/rafaeldoc (1).jpg" class="card-img-top " alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Rafael do Carmo</h5>
+								<p class="card-text">Desenvolvimento do site</p>
+							</div>
+						  </div>
+					</div>
+					<div class="img-c-t">
+						<div class="card" style="width: 350px;">
+							<img src="img/rafaelh.jpg" class="card-img-top " alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Rafael Henrique</h5>
+								<p class="card-text">Desenvolvimento do game</p>
+							</div>
+						  </div>
+					</div>
+					<div class="img-c-t">
+						<div class="card" style="width: 350px;">
+							<img src="img/matias.jpg" class="card-img-top " alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Rafael Matias</h5>
+								<p class="card-text">Conteudo da apresentação,montagem do circuito</p>
+							</div>
+						  </div>
+					</div>
+					<div class="img-c-t">
+						<div class="card" style="width: 350px;">
+							<img src="img/ismaell (1).jpg" class="card-img-top " alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Ismael Henrique</h5>
+								<p class="card-text">Roteiro, Elaboração e montagem do circuito</p>
+							</div>
+						  </div>
+					</div>
+					<div class="img-c-t">
+						<div class="card" style="width: 350px;">
+							<img src="img/loure.jpg" class="card-img-top " alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Gabriel Loureiro</h5>
+								<p class="card-text">Desenvolvimento do minigame</p>
+							</div>
+						  </div>
+					</div>
+					<div class="img-c-t">
+						<div class="card" style="width: 350px;">
+							<img src="img/sana.enc" class="card-img-top " alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Davi Sana</h5>
+								<p class="card-text">Desenvolvimento do game e Ajuda no layout do site</p>
+							</div>
+						  </div>
+					</div>
+					<div class="img-c-t">
+						<div class="card" style="width: 350px;">
+							<img src="img/arthurs.jpg" class="card-img-top " alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Arthur Sena</h5>
+								<p class="card-text">Desenvolvimento do game</p>
+							</div>
+						  </div>
+					</div>
+				</div>
+			</div>
+            
+			<div class="sobre-nos">
+				<h3>Sobre nós</h3>
+            	<br>
+				<p>Somos uma equipe de programadores e entusiastas de eletroeletrônica que se uniram para a criaação de um site inovador,nossa missão é revolucionar a forma com que as pessoas interagem com a eletroeletrônica trazendo um site rico em informação e com maneiras peculiares de aprender,como jogos e minigames.Nós procuramos demonstrar paixão pela arte da programação e pela engenhosidade tecnológica.
+				</p>
+				<br>
+				<p>
+					Email para contato: GrupoΩline@gmail.com.br 
+				</p>
+			</div>
+            
+        </div>
+    </section>
+	
+
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity=
+"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous">
+	</script>
+	
+	<script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity=
+"sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous">
+	</script>
+	
+	<script src=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity=
+"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous">
+	</script>
+</body>
+
+</html>
